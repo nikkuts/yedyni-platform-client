@@ -2,7 +2,7 @@
   "name": "yedyni-platform-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "/yedyni-platform-client",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.16.3",
