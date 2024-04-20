@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #2a363b;   
+  }
+  
+.link:hover,  
+.link:focus,
+.link:active {
+    color: #0d30f5;
+  }

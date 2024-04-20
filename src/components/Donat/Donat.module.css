@@ -1,0 +1,134 @@
+.containerDonat {
+    min-height: calc(100vh - 50px);
+    padding: 40px 70px;
+}
+
+.titleDonat {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.decriptionDonat {
+    color: #555;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.formDonat {
+    width: 480px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d7d2f3;
+    border-radius: 20px;
+}
+
+.listForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.label {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    font-size: 28px;
+    text-align: center;
+    border: 1px solid #dfdddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.4); 
+}
+
+.levelNum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+    text-align: center;
+    color: #0d30f5;
+    border: 1px solid #dfdddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+.textarea {
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dfdddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 0 20px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: calc(18/16);
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #3754fd;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #0d30f5;
+  }
+
+  .checkBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .text {
+    display: block;
+    height: 20px;
+  }
+
+  .oferta {
+    color: #0d30f5;
+    cursor: pointer;
+  }
+
+  .oferta:hover,
+  .oferta:focus {
+    color: #89a006;
+  }

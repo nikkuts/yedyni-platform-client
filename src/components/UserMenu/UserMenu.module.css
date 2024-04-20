@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d2f3;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.textLogo {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: calc(20/18);
+  color: #0d5ef5;
+}
+  
+  .office {
+    position: relative;
+  }
+
+  .officeMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .officeMenu:hover,  
+  .officeMenu:focus {
+    background-color: beige;
+    cursor: pointer;
+  }
+
+  .officeUser {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .userName {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFC107;
+  }
+
+  .button {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 0 20px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: calc(16/14);
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    color: #000000;
+    background-color: rgb(255, 255, 0);
+  }
+  
+  .button:hover,
+  .button:focus {
+    /* color: #0d30f5; */
+    background-color: rgb(228, 228, 0);
+  }

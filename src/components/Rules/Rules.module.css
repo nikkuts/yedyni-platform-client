@@ -1,0 +1,69 @@
+h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h2 {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #555;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.containerBonus {
+    min-height: calc(100vh - 50px);
+    padding: 40px 70px;
+}
+
+.num {
+    color: #2702fc;
+    font-weight: 600;
+}
+
+.formula {
+    color: #555;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableRules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;   
+}
+
+.table {
+    width: 300px;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.td, .th {
+    border: 1px solid #a3c5d3;
+    padding: 10px;
+}

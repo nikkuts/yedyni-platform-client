@@ -1,0 +1,92 @@
+.courseContainer {
+  min-height: calc(100vh - 50px);
+}
+
+.courseTitle {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.courseWave {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.currentWave {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.numberWave {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0d30f5;
+}
+
+.courseBtn {
+  display: block;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(16/14);
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  color: #000000;
+  background-color: rgb(255, 255, 0);
+}
+
+.courseBtn:hover,
+.courseBtn:focus {
+  /* color: #0d30f5; */
+  background-color: rgb(228, 228, 0);
+}
+
+.courseWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.courseList {
+  display: block;
+  width: 280px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 8px 14px rgba(136, 198, 253, 0.19);
+}
+
+.link {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;   
+}
+
+.link:hover,  
+.link:focus,
+.link:active {
+  color: #0d30f5;
+  background-color: beige;
+}
+
+.error {
+  text-align: center;
+}
+
+.wrapperFrame {
+  padding: 30px 100px;
+}

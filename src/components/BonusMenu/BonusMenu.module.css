@@ -1,0 +1,54 @@
+.bonusWrapper {
+    padding: 30px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+  
+  .bonusNav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 0 20px;
+  }
+  
+  .bonusLink {
+    display: block;
+    width: fit-content;
+    height: 40px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #000000;   
+  }
+  
+  .bonusLink:hover,  
+  .bonusLink:focus,
+  .bonusLink:active {
+    background-color: beige;
+  }
+
+  .history {
+    position: relative;
+  }
+
+  .historyMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+  }
+
+  .historyMenu:hover,  
+  .historyMenu:focus {
+    background-color: beige;
+  }
+
+  .icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }

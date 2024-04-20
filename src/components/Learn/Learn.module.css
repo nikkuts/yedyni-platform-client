@@ -1,0 +1,15 @@
+.learnWrapper {
+    min-height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: left;
+}
+
+.learnList {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}

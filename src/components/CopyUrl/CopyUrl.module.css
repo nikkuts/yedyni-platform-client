@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+
+.input {
+    border: 1px solid #dfdddd;
+    border-radius: 10px;
+    padding: 0 10px;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(16/14);
+    outline: none; /* Вимикає контур при фокусі */
+    user-select: none; /* Вимикає можливість виділення тексту */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* padding: 0 10px; */
+    width: 150px;
+    height: 50px;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: calc(16/14);
+    overflow: hidden;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ff9900;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #ff8800;
+  }
+
+  .telegramBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #37b4fd;
+  }
+  
+  .telegramBtn:hover,
+  .telegramBtn:focus {
+    background-color: #3793fd;
+  }
+
+  .text {
+    margin-left: 10px;
+  }
