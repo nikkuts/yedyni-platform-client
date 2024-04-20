@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/yedyni-platform-client/static/css/main.7acaea2f.css",
-    "main.js": "/yedyni-platform-client/static/js/main.07d3183d.js",
-    "index.html": "/yedyni-platform-client/index.html",
-    "main.7acaea2f.css.map": "/yedyni-platform-client/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/yedyni-platform-client/static/js/main.07d3183d.js.map"
+    "main.css": "/static/css/main.7acaea2f.css",
+    "main.js": "/static/js/main.07d3183d.js",
+    "index.html": "/index.html",
+    "main.7acaea2f.css.map": "/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
